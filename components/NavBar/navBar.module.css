@@ -1,0 +1,25 @@
+.navBarContainer {
+  display: flex;
+  z-index: 2;
+  padding: 20px;
+  background-color: transparent;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  flex: 1 1 50%;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.nav {
+  flex: 1 1 50%;
+}
+
+.menuContainer {
+  display: flex;
+  justify-content: space-around;
+}
+  
