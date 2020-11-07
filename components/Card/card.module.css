@@ -1,0 +1,19 @@
+.cardContent {
+  margin-bottom: 32px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+
+  }
+
+  .caseTitle {
+    margin-bottom: 16px;
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 500;  
+  }
+
+  .caseLink{
+    color: #000;
+    text-decoration: none;
+  }
