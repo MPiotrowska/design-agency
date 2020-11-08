@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './card.module.css';
 
 const testImage =
-  'https://via.placeholder.com/550/bebfde/000000%20?Text=Digital.com%20C/O%20https://placeholder.com/';
+  'https://via.placeholder.com/450/bebfde/000000%20?Text=Digital.com%20C/O%20https://placeholder.com/';
 
 export const Card = ({
   children,
