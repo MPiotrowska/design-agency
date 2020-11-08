@@ -22,6 +22,10 @@
         "react-hooks"
     ],
     "rules": {
-        "prettier/prettier": "warn"
+        "prettier/prettier": "warn",
+        "import/prefer-default-export": 0,
+        "object-shorthand": 0,
+        "react/prop-types": 0
+    
     }
 }
