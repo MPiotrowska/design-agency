@@ -1,0 +1,11 @@
+.description {
+  padding: 40px 0px;
+  max-width:500px
+}
+
+@media only screen and (max-width: 600px) {
+  .description {
+    max-width:100%;
+  }
+
+}
