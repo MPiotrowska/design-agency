@@ -1,7 +1,24 @@
 .fullWidth {
   width: 100%;
+  padding: 0;
 }
 .standard {
   width: 75%;
   max-width: 1280px;
+}
+
+@media only screen and (max-width: 600px) {
+  .standard {
+    width: 100%;
+  }
+}
+
+.heroText {
+   position: absolute;
+   top: 20% 
+}
+@media only screen and (max-width: 600px) {
+  .heroText {
+    position: relative;
+  }
 }

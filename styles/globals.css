@@ -46,6 +46,28 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  font-size: 32px;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+
+p {
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+  p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
 .wrapper {
   margin: auto;
   padding: 20px;

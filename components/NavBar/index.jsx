@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from './navBar.module.css';
 import Link from 'next/link';
+import styles from './navBar.module.css';
 
-export const NavBar = ({ children }) => {
+export const NavBar = () => {
   return (
     <header className={styles.navBarContainer}>
       <Link href="/">
@@ -27,6 +27,9 @@ export const NavBar = ({ children }) => {
           </li>
         </ul>
       </nav>
+      <button type="button" className={styles.burger}>
+        burger
+      </button>
     </header>
   );
 };

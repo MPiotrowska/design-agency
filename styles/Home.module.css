@@ -7,6 +7,20 @@
   align-items: center;
 }
 
+.buttonLink {
+  background-color: #e89f19;
+  border-radius:56px;
+  font-size: 13px;
+  font-weight: 600;
+  justify-content: center;
+  min-width: 290px;
+  padding: 12px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: background-color .3s ease,transform .3s ease,-webkit-transform .3s ease,-o-transform .3s ease;
+
+}
+
 /* .container {
   min-height: 100vh;
   padding: 0 0.5rem;
