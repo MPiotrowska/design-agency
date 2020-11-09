@@ -6,6 +6,8 @@
   width: 100%;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  z-index: 20
 }
 .logo {
   flex: 1 1 50%;
@@ -18,8 +20,22 @@
   flex: 1 1 50%;
 }
 
+.burger {
+  display: none;
+}
+
 .menuContainer {
   display: flex;
   justify-content: space-around;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+  }
 }
   
