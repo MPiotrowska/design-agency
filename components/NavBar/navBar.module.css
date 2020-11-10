@@ -14,14 +14,17 @@
   text-transform: uppercase;
   font-weight: bold;
   font-size: 25px;
+  max-width: 100px;
 }
 
 .nav {
   flex: 1 1 50%;
 }
 
-.burger {
+.burgerButton {
   display: none;
+  border: none;
+  background: none;
 }
 
 .menuContainer {
@@ -34,8 +37,78 @@
     display: none;
   }
 
+  .burgerButton {
+    display: flex;
+    position: relative;
+    height: 30px;
+  }
+
+
+  .burgerButton::focus {
+    border: 0;
+    outline: 0;
+  }
+
   .burger {
-    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    z-index: 40;
+    top: -10px;
+  }
+  
+  .burger:after {
+    position: absolute;
+    content: "";
+    width: 20px;
+    top: 16px;
+    left: 6px;
+    height: 2px;
+    background-color: white;
+    z-index:40;
+  }
+
+  .burger:before {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    top: 8px;
+    left: 6px;
+    z-index:40;
+  }
+
+  .burgerOpen {
+    position: relative;
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    z-index: 40;
+    transform: rotate(45deg);
+  }
+
+  .burgerOpen:before {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    top: 18px;
+    left: 6px;
+    z-index:40;
+    transform: rotate(90deg);
+  }
+
+  .burgerOpen:before {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    top: 18px;
+    left: 6px;
+    z-index:40;
+    transform: rotate(90deg);
   }
 }
-  

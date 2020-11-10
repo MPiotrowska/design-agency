@@ -3,6 +3,12 @@ import Link from 'next/link';
 import styles from './navBar.module.css';
 
 export const NavBar = () => {
+  const [open, setOpen] = React.useState(false);
+
+  const handleClick = () => {
+    setOpen(!open);
+  };
+
   return (
     <header className={styles.navBarContainer}>
       <Link href="/">
@@ -27,8 +33,12 @@ export const NavBar = () => {
           </li>
         </ul>
       </nav>
-      <button type="button" className={styles.burger}>
-        burger
+      <button
+        onClick={handleClick}
+        className={styles.burgerButton}
+        type="button"
+      >
+        <span className={open ? styles.burgerOpen : styles.burger} />
       </button>
     </header>
   );
