@@ -7,8 +7,60 @@
   justify-content: space-between;
   align-items: center;
   position: fixed;
-  z-index: 20
+  z-index: 20;
 }
+.menuBurger  {
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 38vh;
+  padding: 50px;
+  z-index: 10;
+}
+
+ @media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .menuBurger {
+    height: 100vh;
+  }
+
+  .menuBurgerInner li a {
+    font-size: 30px;
+    line-height: 53px;
+  }
+}
+
+ 
+
+.menuBurgerInner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menuBurgerInner:after {
+  content: '';
+  position: absolute;
+  height: 100vh;
+  background-color: #00000059;
+  width: 100vw;
+  left: 50%;
+  transform: translate(-50%, 20%);
+
+}
+
+.menuBurgerInner li {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+
+.menu {
+  display:none;
+}
+
 .logo {
   flex: 1 1 50%;
   text-transform: uppercase;
@@ -40,7 +92,10 @@
   .burgerButton {
     display: flex;
     position: relative;
-    height: 30px;
+    height: 101px;
+    outline: none;
+    cursor: pointer;
+    width: 40px;
   }
 
 
@@ -83,9 +138,11 @@
     position: relative;
     width: 20px;
     height: 2px;
-    background-color: white;
-    z-index: 40;
-    transform: rotate(45deg);
+    background-color: black;
+    z-index: 48;
+    transform: translateY(10px) rotate(405deg);
+    transition: all .5s cubic-bezier(0.65, 0.05, 0.36, 1);
+    
   }
 
   .burgerOpen:before {
@@ -93,22 +150,12 @@
     content: "";
     width: 20px;
     height: 2px;
-    background-color: white;
-    top: 18px;
-    left: 6px;
-    z-index:40;
+    background-color: black;
+    top: 0px;
+    left: 0px;
+    z-index:48;
     transform: rotate(90deg);
   }
 
-  .burgerOpen:before {
-    position: absolute;
-    content: "";
-    width: 20px;
-    height: 2px;
-    background-color: white;
-    top: 18px;
-    left: 6px;
-    z-index:40;
-    transform: rotate(90deg);
-  }
+  
 }

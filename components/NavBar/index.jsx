@@ -4,9 +4,11 @@ import styles from './navBar.module.css';
 
 export const NavBar = () => {
   const [open, setOpen] = React.useState(false);
+  const [active, setActive] = React.useState(false);
 
   const handleClick = () => {
     setOpen(!open);
+    setActive(!active);
   };
 
   return (
@@ -40,6 +42,26 @@ export const NavBar = () => {
       >
         <span className={open ? styles.burgerOpen : styles.burger} />
       </button>
+
+      <div className={active ? styles.menuBurger : styles.menu}>
+        <ul className={styles.menuBurgerInner}>
+          <li>
+            <Link href="/about">
+              <a>About Us</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/team">
+              <a>Our Team</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/contact">
+              <a>Contact</a>
+            </Link>
+          </li>
+        </ul>
+      </div>
     </header>
   );
 };
