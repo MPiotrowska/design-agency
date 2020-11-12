@@ -11,6 +11,9 @@ import styles from '../styles/Home.module.css';
 import { Description } from '../components/Description';
 import containerStyles from '../components/Container/container.module.css';
 import { Title } from '../components/Title';
+import { Section } from '../components/Section';
+import { List } from '../components/List';
+import listStyles from '../components/List/list.module.css';
 
 export default function Home() {
   return (
@@ -80,6 +83,37 @@ export default function Home() {
               necessitatibus.
             </Card>
           </FlexBox>
+        </Container>
+        <Container fullWidth style={{ backgroundColor: '#102990' }}>
+          <Container style={{ backgroundColor: '#102990' }}>
+            <FlexBox justifyContent="space-around">
+              <Section>
+                <Title className={listStyles.title} white>
+                  Design, digital products, branding, communication and
+                  strategy.
+                </Title>
+                <Description white>
+                  We help you move quickly without wasting resources.
+                </Description>
+              </Section>
+              <Section>
+                <List white caseTitle="Turn ideas into action">
+                  We help you design and develop digital products that solve
+                  real problems for real people. Apps, webs and everything in
+                  between. We work fast.
+                </List>
+                <List white caseTitle="Power up your brand">
+                  We help you improve your narrative and strengthen your brand
+                  message and aesthetics throughout all your channels in just 3
+                  weeks.
+                </List>
+                <List white caseTitle="Cut through the noise">
+                  We help you think over your whole communication strategy and
+                  build a 3-month content plan.
+                </List>
+              </Section>
+            </FlexBox>
+          </Container>
         </Container>
       </main>
       <Footer />
