@@ -1,0 +1,18 @@
+.caseTitle {
+   
+    color: #f6f7fb;
+    font-size: 56px;
+    line-height: 67px;
+    font-weight: 500;   
+}
+
+.caseTitle:hover {
+  text-decoration: underline;
+} 
+
+.cardContainer {
+display: flex;
+justify-content: center;
+
+margin: 100px 0 100px 0;
+}
