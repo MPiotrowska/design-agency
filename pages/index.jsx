@@ -14,6 +14,8 @@ import { Title } from '../components/Title';
 import { Section } from '../components/Section';
 import { List } from '../components/List';
 import listStyles from '../components/List/list.module.css';
+import { MiniCard } from '../components/MiniCard';
+import { ContactUs } from '../components/ContactUs';
 
 export default function Home() {
   return (
@@ -114,6 +116,37 @@ export default function Home() {
               </Section>
             </FlexBox>
           </Container>
+        </Container>
+        <Container fullWidth>
+          <Container>
+            <FlexBox justifyContent="center">
+              <MiniCard
+                caseLink="https://google.com"
+                caseTitle="Women in Tech: Marga Martinez Picornell"
+              />
+
+              <MiniCard
+                caseLink="https://google.com"
+                caseTitle="Lean UX and Design Sprint changed product design for ever"
+              />
+
+              <MiniCard
+                caseLink="https://google.com"
+                caseTitle="90 days to emerge stronger"
+              />
+
+              <MiniCard
+                caseLink="https://google.com"
+                caseTitle="Speculative Design: An alternative reading to reality"
+              />
+            </FlexBox>
+          </Container>
+        </Container>
+        <Container fullWidth style={{ backgroundColor: '#102990' }}>
+          <ContactUs
+            caseLink="https://google.com"
+            caseTitle="Let’s talk. Contact Us."
+          />
         </Container>
       </main>
       <Footer />
