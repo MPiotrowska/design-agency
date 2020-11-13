@@ -1,0 +1,13 @@
+.cardContainer {
+  max-width: 300px;
+  margin-right: 20px;
+}
+.caseTitle {
+  max-width: 250px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.caseTitle:hover {
+  text-decoration: underline;
+} 
