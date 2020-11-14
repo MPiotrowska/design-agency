@@ -9,6 +9,12 @@
   position: fixed;
   z-index: 20;
 }
+
+.nav {
+  
+  max-width: 500px;
+
+}
 .menuBurger  {
   background-color: white;
   position: absolute;
