@@ -12,7 +12,7 @@ const Contact = () => {
       <NavBar />
       <Container fullWidth>
         <Container>
-          <FlexBox>
+          <FlexBox justifyContent="space-around">
             <Form />
             <FormImage />
           </FlexBox>
