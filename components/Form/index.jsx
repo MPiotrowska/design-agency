@@ -6,7 +6,6 @@ export const Form = () => {
     <div>
       <div>
         <h1 className={styles.title}>Let&apos;s work together</h1>
-
         <p className={styles.info}>Or email us at</p>
       </div>
       <form name="contact" action="/success" method="POST" data-netlify="true">
@@ -23,7 +22,6 @@ export const Form = () => {
             id="name"
           />
         </p>
-
         <p>
           <label className={styles.label} htmlFor="emailadress">
             Email Adress:
@@ -93,7 +91,9 @@ export const Form = () => {
           />
         </p>
         <p>
-          <button type="submit">Submit</button>
+          <button className={styles.formButton} type="submit">
+            Submit
+          </button>
         </p>
       </form>
     </div>
