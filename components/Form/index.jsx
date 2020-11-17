@@ -37,28 +37,48 @@ export const Form = () => {
           />
         </p>
         <p>
-          <label className={styles.label} htmlFor="help">
+          <label className={styles.label} htmlFor="Service">
             What can we help you with?
-          </label>{' '}
+          </label>
           <br />
-          <input
+          <select
             className={styles.formInput}
-            type="text"
-            name="help"
-            id="help"
-          />
+            name="Service"
+            id="Service"
+            dataName="Service"
+            required
+          >
+            <option value>Select one...</option>
+            <option value="Product">
+              I want to create or improve a digital product
+            </option>
+            <option value="Innovation">
+              I want to bring innovation to my company
+            </option>
+            <option value="Branding">I want to create a powerful brand</option>
+            <option value="Communication ">
+              I need help with my communication strategy
+            </option>
+          </select>
         </p>
         <p>
-          <label className={styles.label} htmlFor="budget">
+          <label className={styles.label} htmlFor="Budget">
             What sized budget are you working with?
           </label>
           <br />
-          <input
+          <select
             className={styles.formInput}
-            type="text"
-            name="budget"
-            id="budget"
-          />
+            name="Budget"
+            id="Budget"
+            dataName="Budget"
+            required
+          >
+            <option value>Select one...</option>
+            <option value="10 or less">€10.000 or less</option>
+            <option value="10k - 25k">€10.000 - €25.000</option>
+            <option value="25k - 50k">€25.000 - €50.000</option>
+            <option value="+50k ">+ €50.000</option>
+          </select>
         </p>
 
         <p>
