@@ -6,7 +6,7 @@ import { Form } from '../components/Form';
 import { FormImage } from '../components/FormImage';
 import { NavBar } from '../components/NavBar';
 import { Section } from '../components/Section';
-import { Description } from '../components/Description';
+
 import { Adress } from '../components/Adress';
 
 const Contact = () => {
