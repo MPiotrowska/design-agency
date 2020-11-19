@@ -1,10 +1,9 @@
 import React from 'react';
 import Link from 'next/link';
-import Head from 'next/head';
+
 import { Card } from '../components/Card';
 import { Container } from '../components/Container';
-import { Footer } from '../components/Footer';
-import { NavBar } from '../components/NavBar';
+
 import { FlexBox } from '../components/FlexBox';
 import { Description } from '../components/Description';
 import { Title } from '../components/Title';
@@ -22,11 +21,6 @@ import listStyles from '../components/List/list.module.css';
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <NavBar />
       <Container fullWidth style={{ position: 'relative' }}>
         <img src="/images/orange-large.jpg" alt="orange" />
         <Container className={containerStyles.heroText}>
@@ -160,7 +154,6 @@ export default function Home() {
           <ContactUs caseLink="/contact" caseTitle="Let’s talk. Contact Us." />
         </Container>
       </main>
-      <Footer />
     </>
   );
 }
