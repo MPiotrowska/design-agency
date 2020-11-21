@@ -12,7 +12,7 @@ export const Footer = () => {
         <img
           src="images/icon-instagram.svg"
           alt="Vercel Logo"
-          className={styles.logo}
+          // className={styles.logo}
         />
       </a>
       <a
@@ -23,14 +23,14 @@ export const Footer = () => {
         <img
           src="images/icon-linkedin.svg"
           alt="Vercel Logo"
-          className={styles.logo}
+          // className={styles.logo}
         />
       </a>
       <a href="https://dribbble.com/" target="_blank" rel="noopener noreferrer">
         <img
           src="images/icon-dribbble.svg"
           alt="Vercel Logo"
-          className={styles.logo}
+          // className={styles.logo}
         />
       </a>
     </footer>
