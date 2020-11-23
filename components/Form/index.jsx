@@ -40,7 +40,7 @@ export const Form = () => {
           </label>
           <br />
           <select
-            className={styles.formInput}
+            className={styles.dropDownMenuInput}
             name="Service"
             id="Service"
             dataName="Service"
@@ -65,7 +65,7 @@ export const Form = () => {
           </label>
           <br />
           <select
-            className={styles.formInput}
+            className={styles.dropDownMenuInput}
             name="Budget"
             id="Budget"
             dataName="Budget"
