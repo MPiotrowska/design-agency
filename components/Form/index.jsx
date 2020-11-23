@@ -3,7 +3,7 @@ import styles from './form.module.css';
 
 export const Form = () => {
   return (
-    <div>
+    <div className={styles.form}>
       <div>
         <h1 className={styles.title}>Let&apos;s work together</h1>
         <p className={styles.info}>Or email us at</p>
