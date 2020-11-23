@@ -1,3 +1,7 @@
+.form {
+ width: 500px;
+}
+
 .formInput {
 width: 500px;
 height: 35px;
@@ -9,6 +13,7 @@ color: #333333;
 vertical-align: middle;
 background-color: #ffffff;
 border: 1px solid #cccccc;
+border-radius: 3px;
 
  }
  .formInput:hover {
@@ -25,6 +30,7 @@ border: 1px solid #cccccc;
   background-color:#ececec;
   vertical-align: middle;
   border: 1px solid #cccccc;
+  border-radius: 3px;
  }
  .dropDownMenuInput:hover {
  border: 1px solid #1480de;
@@ -36,34 +42,36 @@ width: 500px;
 height: 70px;
 margin-bottom: 52px;
 margin-top: 5px;
-vertical-align: middle;
-    background-color: #ffffff;
-    border: 1px solid #cccccc;
+/* vertical-align: middle; */
+background-color: #ffffff;
+border: 1px solid #cccccc;
+border-radius: 3px;
 }
 .messageInput:hover {
   border: 1px solid #1480de;
  }
+
 
 .title {
 margin-bottom: 24px;
 color: #000;
 font-size: 52px;
 line-height: 60px;
-font-weight: 500;
+font-weight: 700;
 }
 
 .info{
 margin-bottom: 52px;
 font-size: 18px;
 line-height: 24px;
-font-weight: 500;
+font-weight: 600;
 }
 
 .label{
 margin-bottom: 8px;
 font-size: 18px;
 line-height: 24px;
-font-weight: 500;
+font-weight: 600;
 
 }
 .formButton {
@@ -75,7 +83,7 @@ font-weight: 500;
   font-size: 18px;
   line-height: 26px;
   cursor: pointer;
-  border-radius: 2px;
+  border-radius: 3px;
 }
 .caseTitle {
   padding-left: 3px;
