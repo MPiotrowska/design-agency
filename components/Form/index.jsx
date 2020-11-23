@@ -95,6 +95,19 @@ export const Form = () => {
             Submit
           </button>
         </p>
+        <div className={styles.agreement}>
+          {' '}
+          By filling in the form, you agree to our
+          <a
+            className={styles.caseTitle}
+            href="https://www.google.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Privacy Policy,
+          </a>{' '}
+          including our cookie use.{' '}
+        </div>
       </form>
     </div>
   );
