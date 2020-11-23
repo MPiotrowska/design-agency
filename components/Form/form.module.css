@@ -5,14 +5,44 @@ margin-bottom: 32px;
 margin-top: 5px;
 font-size: 16px;
 line-height: 24px;
+color: #333333;
+vertical-align: middle;
+background-color: #ffffff;
+border: 1px solid #cccccc;
+
  }
+ .formInput:hover {
+  border: 1px solid #1480de;
+ }
+
+ .dropDownMenuInput {
+  width: 500px;
+  height: 35px;
+  margin-bottom: 32px;
+  margin-top: 5px;
+  font-size: 16px;
+  line-height: 24px;
+  background-color:#ececec;
+  vertical-align: middle;
+  border: 1px solid #cccccc;
+ }
+ .dropDownMenuInput:hover {
+ border: 1px solid #1480de;
+}
+ 
 
 .messageInput {
 width: 500px;
 height: 70px;
 margin-bottom: 52px;
 margin-top: 5px;
+vertical-align: middle;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
 }
+.messageInput:hover {
+  border: 1px solid #1480de;
+ }
 
 .title {
 margin-bottom: 24px;
