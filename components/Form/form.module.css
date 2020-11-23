@@ -8,7 +8,7 @@ line-height: 24px;
  }
 
 .messageInput {
-width: 100%;
+width: 500px;
 height: 70px;
 margin-bottom: 52px;
 margin-top: 5px;
@@ -47,4 +47,24 @@ font-weight: 500;
   cursor: pointer;
   border-radius: 2px;
 }
+.caseTitle {
+  padding-left: 3px;
+
+}
+.caseTitle:hover {
+  text-decoration: underline;
+}
+.agreement {
+  margin-top: 15px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .form {
+    width: 80%;
+    padding-top: 40px;
+  
+  }
+} 
+
 

@@ -17,7 +17,20 @@
   align-items: center;
 }
 
-
-.logo {
-  height: 1em;
+.caseTitle {
+  position: static;
+  display: inline-block;
+  margin-right: 20px;
+  float: none;
+  clear: left;
+   
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  padding-right: 20px;
 }
+
+.caseTitle:hover {
+  text-decoration: underline;
+} 
+

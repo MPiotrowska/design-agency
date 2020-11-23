@@ -3,7 +3,7 @@ import styles from './form.module.css';
 
 export const Form = () => {
   return (
-    <div>
+    <div className={styles.form}>
       <div>
         <h1 className={styles.title}>Let&apos;s work together</h1>
         <p className={styles.info}>Or email us at</p>
@@ -95,6 +95,19 @@ export const Form = () => {
             Submit
           </button>
         </p>
+        <div className={styles.agreement}>
+          {' '}
+          By filling in the form, you agree to our
+          <a
+            className={styles.caseTitle}
+            href="https://www.google.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Privacy Policy,
+          </a>{' '}
+          including our cookie use.{' '}
+        </div>
       </form>
     </div>
   );

@@ -6,9 +6,11 @@ import { FormImage } from '../components/FormImage';
 import { Section } from '../components/Section';
 import { Adress } from '../components/Adress';
 
+import styles from '../styles/Home.module.css';
+
 const Contact = () => {
   return (
-    <div>
+    <main className={styles.main}>
       <Container fullWidth style={{ paddingTop: '100px' }}>
         <Container>
           <FlexBox justifyContent="space-around">
@@ -37,7 +39,7 @@ const Contact = () => {
           </FlexBox>
         </Container>
       </Container>
-    </div>
+    </main>
   );
 };
 
