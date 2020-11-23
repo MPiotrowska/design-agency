@@ -5,6 +5,7 @@ export const Footer = () => {
   return (
     <footer className={styles.footer}>
       <a
+        className={styles.caseTitle}
         href="https://www.google.com/"
         target="_blank"
         rel="noopener noreferrer"
@@ -12,6 +13,7 @@ export const Footer = () => {
         Cookie Policy
       </a>
       <a
+        className={styles.caseTitle}
         href="https://www.google.com/"
         target="_blank"
         rel="noopener noreferrer"
