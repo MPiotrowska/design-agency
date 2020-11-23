@@ -5,6 +5,21 @@ export const Footer = () => {
   return (
     <footer className={styles.footer}>
       <a
+        href="https://www.google.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Cookie Policy
+      </a>
+      <a
+        href="https://www.google.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Privacy Policy
+      </a>
+
+      <a
         href="https://www.instagram.com/"
         target="_blank"
         rel="noopener noreferrer"
