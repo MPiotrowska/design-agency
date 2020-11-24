@@ -1,0 +1,16 @@
+.image {
+width: 100%;
+}
+.text {
+margin-top: 16px;
+margin-bottom: 24px;
+color: #000;
+font-size: 52px;
+line-height: 60px;
+font-weight: 600;
+}
+.infoContainer {
+width: 60%;
+padding-top: 180px;
+padding-bottom: 70px;
+}
