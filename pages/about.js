@@ -1,9 +1,11 @@
 import React from 'react';
 import { Container } from '../components/Container';
 import { ContactUs } from '../components/ContactUs';
-
-import styles from '../styles/Home.module.css';
+import { FlexBox } from '../components/FlexBox';
+import { Section } from '../components/Section';
 import { AboutSection } from '../components/AboutSection';
+import { List } from '../components/List';
+import styles from '../styles/Home.module.css';
 
 const About = () => {
   return (
@@ -11,6 +13,26 @@ const About = () => {
       <Container fullWidth>
         <AboutSection />
       </Container>
+      <Container fullWidth style={{ backgroundColor: '#102990' }}>
+        <Container style={{ backgroundColor: '#102990' }}>
+          <h3>hgjhg</h3>
+          <h1> bjkb</h1>
+          <FlexBox justifyContent="space-between">
+            <Section>
+              <List>
+                <p>
+                  <strong>.</strong>
+                  Product Strategy
+                </p>
+              </List>
+            </Section>
+            <Section>knkn</Section>
+            <Section>knkn</Section>
+          </FlexBox>
+        </Container>
+      </Container>
+      <Container fullWidth>snkscncn</Container>
+
       <Container fullWidth style={{ backgroundColor: '#102990' }}>
         <ContactUs caseLink="/contact" caseTitle="Let’s talk. Contact Us." />
       </Container>
