@@ -9,7 +9,9 @@ export const AboutSection = ({ src = testImage, alt = '' }) => {
   return (
     <Container>
       <div className={styles.infoContainer}>
-        <h1>kjbjhb</h1>
+        <h1 className={styles.text}>
+          Bardo is a product design and branding studio based in Barcelona.
+        </h1>
       </div>
       <div>
         <img className={styles.image} src={src} alt={alt} />
