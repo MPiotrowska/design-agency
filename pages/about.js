@@ -7,6 +7,7 @@ import { AboutSection } from '../components/AboutSection';
 
 import styles from '../styles/Home.module.css';
 import aboutStyles from '../components/AboutSection/aboutSection.module.css';
+import { MiniList } from '../components/MiniList';
 
 const About = () => {
   return (
@@ -22,9 +23,15 @@ const About = () => {
             Strategy, clarity and purpose
           </h1>
           <FlexBox justifyContent="space-between">
-            <Section>ffh</Section>
-            <Section>knkn</Section>
-            <Section>knkn</Section>
+            <Section>
+              <MiniList white caseTitle="Digital products →" />
+            </Section>
+            <Section>
+              <MiniList white caseTitle="Branding →" />
+            </Section>
+            <Section>
+              <MiniList white caseTitle="Communication →" />
+            </Section>
           </FlexBox>
         </Container>
       </Container>
