@@ -17,7 +17,13 @@ const About = () => {
         <AboutSection />
       </Container>
       <Container fullWidth style={{ backgroundColor: '#102990' }}>
-        <Container style={{ backgroundColor: '#102990' }}>
+        <Container
+          style={{
+            backgroundColor: '#102990',
+            paddingTop: '140px',
+            paddingBottom: '130px',
+          }}
+        >
           <h3 className={aboutStyles.description}>How we do it</h3>
           <h1 className={aboutStyles.purpose}>
             {' '}
@@ -32,13 +38,13 @@ const About = () => {
               >
                 {' '}
                 <ul white>
-                  <li>● Brand Strategy</li>
+                  <li>● Product Strategy</li>
                   <li>● Research</li>
-                  <li>● Naming</li>
+                  <li>● UX/UI Design</li>
                   <li>● Brand Identity Systems</li>
-                  <li>● Copywriting</li>
-                  <li>● Information Architecture</li>
-                  <li>● Web Design</li>
+                  <li>● No Code</li>
+                  <li>● Websites and Apps</li>
+                  <li>● Ecommerce</li>
                 </ul>
               </MiniList>
             </Section>
@@ -67,13 +73,13 @@ const About = () => {
               >
                 {' '}
                 <ul white>
-                  <li>● Brand Strategy</li>
-                  <li>● Research</li>
-                  <li>● Naming</li>
-                  <li>● Brand Identity Systems</li>
+                  <li>● Marketing Strategy</li>
+                  <li>● Content Strategy and Creation</li>
                   <li>● Copywriting</li>
-                  <li>● Information Architecture</li>
-                  <li>● Web Design</li>
+                  <li>● SEO</li>
+                  <li>● Social Media</li>
+                  <li>● Brand Activations and Experience</li>
+                  <li>● Style guides, tone and voice</li>
                 </ul>
               </MiniList>
             </Section>
