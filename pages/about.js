@@ -34,6 +34,7 @@ const About = () => {
               <MiniList
                 white
                 className={miniLIstStyles.title}
+                caseLink="https://google.com"
                 caseTitle="Digital products →"
               >
                 {' '}
@@ -51,6 +52,7 @@ const About = () => {
             <Section>
               <MiniList
                 white
+                caseLink="https://google.com"
                 className={miniLIstStyles.title}
                 caseTitle="Branding →"
               >
@@ -68,6 +70,7 @@ const About = () => {
             <Section>
               <MiniList
                 white
+                caseLink="https://google.com"
                 className={miniLIstStyles.title}
                 caseTitle="Communication →"
               >
