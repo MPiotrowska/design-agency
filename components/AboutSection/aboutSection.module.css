@@ -14,3 +14,21 @@ width: 60%;
 padding-top: 180px;
 padding-bottom: 70px;
 }
+
+.description {
+color: white;
+text-transform: uppercase;
+margin-bottom: 8px;
+line-height: 17px;
+font-weight: 500; 
+font-size: 14px;
+}
+
+.purpose {
+margin-top: 16px;
+margin-bottom: 24px;
+font-size: 44px;
+line-height: 54px;
+font-weight: 500;
+color: white;
+}
