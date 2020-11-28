@@ -8,10 +8,16 @@
 }
 
 .title {
-  margin-top: 16px; 
-  margin-bottom: 24px;
-  font-size: 44px;
+  margin-top: 10px; 
+  margin-bottom: 10px;
+  font-size: 28px;
   line-height: 54px;
   font-weight: 500;
 
+}
+ .listItem {
+  margin-bottom: 12px;
+  font-size: 18px;
+  line-height: 36px;
+  font-weight: 500;
 }

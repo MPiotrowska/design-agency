@@ -8,6 +8,7 @@ import { AboutSection } from '../components/AboutSection';
 import styles from '../styles/Home.module.css';
 import aboutStyles from '../components/AboutSection/aboutSection.module.css';
 import { MiniList } from '../components/MiniList';
+import miniLIstStyles from '../components/MiniList/miniList.module.css';
 
 const About = () => {
   return (
@@ -24,13 +25,57 @@ const About = () => {
           </h1>
           <FlexBox justifyContent="space-between">
             <Section>
-              <MiniList white caseTitle="Digital products →" />
+              <MiniList
+                white
+                className={miniLIstStyles.title}
+                caseTitle="Digital products →"
+              >
+                {' '}
+                <ul white>
+                  <li>● Brand Strategy</li>
+                  <li>● Research</li>
+                  <li>● Naming</li>
+                  <li>● Brand Identity Systems</li>
+                  <li>● Copywriting</li>
+                  <li>● Information Architecture</li>
+                  <li>● Web Design</li>
+                </ul>
+              </MiniList>
             </Section>
             <Section>
-              <MiniList white caseTitle="Branding →" />
+              <MiniList
+                white
+                className={miniLIstStyles.title}
+                caseTitle="Branding →"
+              >
+                <ul white>
+                  <li>● Brand Strategy</li>
+                  <li>● Research</li>
+                  <li>● Naming</li>
+                  <li>● Brand Identity Systems</li>
+                  <li>● Copywriting</li>
+                  <li>● Information Architecture</li>
+                  <li>● Web Design</li>
+                </ul>
+              </MiniList>
             </Section>
             <Section>
-              <MiniList white caseTitle="Communication →" />
+              <MiniList
+                white
+                className={miniLIstStyles.title}
+                caseTitle="Communication →"
+              >
+                {' '}
+                <ul white>
+                  <li>● Brand Strategy</li>
+                  <li>● Research</li>
+                  <li>● Naming</li>
+                  <li>● Brand Identity Systems</li>
+                  <li>● Copywriting</li>
+                  <li>● Information Architecture</li>
+                  <li>● Web Design</li>
+                </ul>
+              </MiniList>
             </Section>
           </FlexBox>
         </Container>
