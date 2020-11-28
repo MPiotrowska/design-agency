@@ -1,0 +1,17 @@
+.black {
+  color: black
+}
+
+.white {
+  color:white;
+  margin-bottom: 20px;  
+}
+
+.title {
+  margin-top: 16px; 
+  margin-bottom: 24px;
+  font-size: 44px;
+  line-height: 54px;
+  font-weight: 500;
+
+}
