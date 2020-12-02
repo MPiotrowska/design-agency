@@ -10,6 +10,7 @@ import aboutStyles from '../components/AboutSection/aboutSection.module.css';
 import { MiniList } from '../components/MiniList';
 import miniLIstStyles from '../components/MiniList/miniList.module.css';
 import { Methodologies } from '../components/Methodologies';
+import { OurCompany } from '../components/OurCompany';
 
 const About = () => {
   return (
@@ -90,7 +91,8 @@ const About = () => {
           </FlexBox>
         </Container>
       </Container>
-      <Methodologies> </Methodologies>{' '}
+      <Methodologies />
+      <OurCompany />
       <Container fullWidth style={{ backgroundColor: '#102990' }}>
         <ContactUs caseLink="/contact" caseTitle="Let’s talk. Contact Us." />
       </Container>
