@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container } from '../Container';
 import { FlexBox } from '../FlexBox';
-import { MiniList } from '../MiniList';
 import { Section } from '../Section';
 import styles from './ourCompany.module.css';
 
@@ -14,31 +13,16 @@ export const OurCompany = ({ src = testImage, alt = '' }) => {
       <Container>
         <FlexBox justifyContent="space-between">
           <Section>
-            <p>OUR METHODOLOGIES</p>
-            <h2 className={styles.caseTitle}>Sprints and Lean UX</h2>
-            <MiniList>
-              {' '}
-              <ul>
-                <a
-                  href="https://google.com"
-                  className={styles.caseLink}
-                  target="blank"
-                >
-                  <li>
-                    ● Validate any idea in just 1-week with Design Sprint →
-                  </li>
-                </a>
-                <a
-                  href="https://google.com"
-                  target="blank"
-                  className={styles.caseLink}
-                >
-                  <li>
-                    ● Design great products with agile teams with Lean UX →
-                  </li>
-                </a>
-              </ul>
-            </MiniList>
+            <p>OUR COMPANY</p>
+            <h2 className={styles.caseTitle}>
+              We are remote and calm design studio.
+            </h2>
+            <p>
+              We don't believe in the grow-or-die culture. At Bardo we are in it
+              for the long-term and strive to be meaningful for our clients,
+              users and team. Also, we don't restrict our hiring to a small
+              geographic region, we want to get the best talent out there.
+            </p>
           </Section>
           <img src={src} alt={alt} />
         </FlexBox>
