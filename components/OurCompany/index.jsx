@@ -17,7 +17,7 @@ export const OurCompany = ({ src = testImage, alt = '' }) => {
             <h2 className={styles.caseTitle}>
               We are remote and calm design studio.
             </h2>
-            <p>
+            <p className={styles.caseParagraph}>
               We don't believe in the grow-or-die culture. At Bardo we are in it
               for the long-term and strive to be meaningful for our clients,
               users and team. Also, we don't restrict our hiring to a small
