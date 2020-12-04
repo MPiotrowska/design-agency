@@ -15,7 +15,7 @@ export const Methodologies = ({ src = testImage, alt = '' }) => {
         <FlexBox justifyContent="space-between">
           <img src={src} alt={alt} />
 
-          <Section>
+          <Section padding="80px 0px">
             <p>OUR METHODOLOGIES</p>
             <h2 className={styles.caseTitle}>Sprints and Lean UX</h2>
             <MiniList>
