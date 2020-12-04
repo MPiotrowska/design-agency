@@ -1,0 +1,10 @@
+.caseTitle {
+  font-size: 44px;
+  line-height: 54px;
+  font-weight: 500;
+  padding: 40px 0px;
+}
+
+.caseLink:hover {
+  text-decoration: underline;
+}
