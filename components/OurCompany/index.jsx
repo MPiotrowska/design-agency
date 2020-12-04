@@ -12,7 +12,7 @@ export const OurCompany = ({ src = testImage, alt = '' }) => {
     <Container fullWidth>
       <Container>
         <FlexBox justifyContent="space-between">
-          <Section>
+          <Section padding="60px 0px">
             <p className={styles.title}>Our Company</p>
             <h2 className={styles.caseTitle}>
               We are remote and calm design studio.
