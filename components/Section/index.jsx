@@ -1,6 +1,13 @@
 import React from 'react';
-import styles from './section.module.css';
 
-export const Section = ({ children }) => {
-  return <div className={styles.sectionContainer}>{children}</div>;
+export const Section = ({
+  children,
+  maxWidth = '450px',
+  padding = '0 0 0 0',
+}) => {
+  const stylesObj = {
+    maxWidth: maxWidth,
+    padding: padding,
+  };
+  return <div style={stylesObj}>{children}</div>;
 };
