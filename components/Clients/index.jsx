@@ -6,7 +6,7 @@ import styles from './clients.module.css';
 
 export const Clients = () => {
   return (
-    <Container fullWidth>
+    <Container fullWidth style={{ backgroundColor: '#f6f7fb' }}>
       <Container>
         <h1 className={styles.purpose}>
           {' '}
@@ -40,6 +40,9 @@ export const Clients = () => {
             <img src="/images/blue.svg" alt="logo" />
           </Section>
         </FlexBox>
+        <Section maxWidth="100%" display="flex" justifyContent="center">
+          <img src="/images/best-year.svg" alt="logo" />
+        </Section>
       </Container>
     </Container>
   );
