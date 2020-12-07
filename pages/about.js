@@ -11,6 +11,7 @@ import { MiniList } from '../components/MiniList';
 import miniLIstStyles from '../components/MiniList/miniList.module.css';
 import { Methodologies } from '../components/Methodologies';
 import { OurCompany } from '../components/OurCompany';
+import { Clients } from '../components/Clients';
 
 const About = () => {
   return (
@@ -93,6 +94,7 @@ const About = () => {
       </Container>
       <Methodologies />
       <OurCompany />
+      <Clients />
       <Container fullWidth style={{ backgroundColor: '#102990' }}>
         <ContactUs caseLink="/contact" caseTitle="Let’s talk. Contact Us." />
       </Container>
