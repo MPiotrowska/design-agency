@@ -16,5 +16,16 @@
   "award": {
     "url": "/images/award.svg",
     "altText": ""
-  }
+  },
+  "testimonies": [
+    {
+      "text": "Logo created a strong app that functions well and is easy to manage. The app has gotten great feedback and is impressive for a quickly developed MVP."
+    },
+    {
+      "text": "Logo  kicked off out project running a Design Sprint. That helped us validate our ideas, think of solutions, build a prototype and test it with real users very fast. After that they began working on the design of two high quality apps that are attractive and very easy to use and understand."
+    },
+    {
+      "text": "They're very committed, even when we ask them to travel or work long hours. They've become real thought partners to us, instead of being just developers who execute what they're told. Also, they're all critical thinkers, which we found very valuable."
+    }
+  ]
 }
