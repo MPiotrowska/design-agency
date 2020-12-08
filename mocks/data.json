@@ -1,0 +1,20 @@
+{
+  "data": [],
+  "images": [
+    { "url": "/images/samsung.svg", "altText": "Samsung Logo" },
+    { "url": "/images/danone.svg", "altText": "" },
+
+    { "url": "/images/conde.svg", "altText": "" },
+    { "url": "/images/naked.svg", "altText": "" }
+  ],
+  "logos": [
+    { "url": "/images/novartis.svg", "altText": "" },
+    { "url": "/images/razer.svg", "altText": "" },
+    { "url": "/images/silence.svg", "altText": "" },
+    { "url": "/images/jampp.svg", "altText": "" }
+  ],
+  "award": {
+    "url": "/images/award.svg",
+    "altText": ""
+  }
+}
