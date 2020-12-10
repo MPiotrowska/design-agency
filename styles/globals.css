@@ -73,3 +73,15 @@ p {
   padding: 80px 20px;
 }
 
+.slick-next:before {
+  background-image: url('../public/images/right-chevron.svg')!important;
+  background-repeat: no-repeat;
+  color: transparent!important;
+}
+
+.slick-prev:before {
+  background-image: url('../public/images/left-chevron.svg')!important;
+  background-repeat: no-repeat;
+  color: transparent!important;
+}
+
