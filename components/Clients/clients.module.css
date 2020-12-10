@@ -25,10 +25,29 @@
   }
   
   .purpose {
-  margin-top: 16px;
+  margin-top: 60px;
   margin-bottom: 24px;
   font-size: 44px;
   line-height: 54px;
   font-weight: 500;
+  max-width: 800px;
   
+  }
+
+  .award {
+  width: 250px;
+  height: auto;
+  margin: 40px 0px;
+
+  }
+
+  .rating {
+    width: 150px;
+    height: auto;
+    margin: 70px 0px 180px 0px;
+  
+  }
+
+  .flexContainer {
+    padding: 30px 0px;
   }
