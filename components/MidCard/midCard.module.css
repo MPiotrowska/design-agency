@@ -4,8 +4,6 @@
   line-height: 24px;
   font-weight: 500;
   max-width: 390px;
-  
-
   }
 
   .caseTitle {
@@ -13,6 +11,10 @@
     font-size: 28px;
     line-height: 38px;
     font-weight: 500;  
+  }
+
+  .caseTitle:hover {
+    text-decoration: underline;
   }
 
   .caseLink{
