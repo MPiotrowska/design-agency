@@ -24,8 +24,8 @@ export const NavBar = () => {
             </Link>
           </li>
           <li>
-            <Link href="/team">
-              <a>Our Team</a>
+            <Link href="/studies">
+              <a>Case Studies</a>
             </Link>
           </li>
           <li>
@@ -51,8 +51,8 @@ export const NavBar = () => {
             </Link>
           </li>
           <li>
-            <Link href="/team">
-              <a>Our Team</a>
+            <Link href="/studies">
+              <a>Case Studies</a>
             </Link>
           </li>
           <li>
