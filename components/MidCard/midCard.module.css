@@ -1,0 +1,56 @@
+.cardContent {
+  margin-bottom: 120px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  max-width: 390px;
+  }
+
+  .caseTitle {
+    margin-bottom: 16px;
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 500;  
+  }
+
+  .caseTitle:hover {
+    text-decoration: underline;
+  }
+
+  .caseLink{
+    color: #000;
+    text-decoration: none;
+  }
+  .imageContainer {
+    margin-bottom: 40px;
+    height: 390px;
+    width: 390px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22);
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;
+}
+
+.imageContainer:hover {
+  transform: translate3d(0px, 0px, 0px) scale3d(1.05, 1.05, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;
+}
+
+
+ .title {
+  font-size: 52px;
+  line-height: 60px;
+  font-weight: 500;
+  margin-bottom: 60px;
+    margin-top: 16px;
+
+ }
+
+ .test {
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;
+ }
+
+ .test:hover {
+  transform: translate3d(0px, 0px, 0px) scale3d(1.05, 1.05, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;
+ }
+  
+  
