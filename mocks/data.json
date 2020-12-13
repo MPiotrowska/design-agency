@@ -35,5 +35,74 @@
       "text": "They're very committed, even when we ask them to travel or work long hours. They've become real thought partners to us, instead of being just developers who execute what they're told. Also, they're all critical thinkers, which we found very valuable.",
       "name": "Lauren Braun, Head of Product"
     }
-  ]
+  ],
+
+  "midCards": [
+    {
+      "url": "/images/playa.jpg",
+      "altText": "",
+      "link": "https://google.com",
+      "title": "Naked",
+      "cardContent": "We worked on Product Strategy and Product Development with a Silicon Valley startup that raised a $14M Series A producing and selling the world's first 3D home body scanner."
+    },
+    {
+      "url": "/images/playa.jpg",
+      "altText": "",
+      "link": "https://google.com",
+      "title": "Silence",
+      "cardContent": "Silence is a personal electric scooter free of charging points. We ran a Design Sprint and worked on UX, UI and Strategy with their team."
+    },
+    {
+      "url": "/images/playa.jpg",
+      "altText": "",
+      "link": "https://google.com",
+      "title": "Samsung",
+      "cardContent": "We worked with Samsung designing and developing the web for their annual conference for developers and digital product creators. UX, UI, development and a lot of user testing."
+    },
+    {
+      "url": "/images/playa.jpg",
+      "altText": "",
+      "link": "https://google.com",
+      "title": "Period Gold",
+      "cardContent": "Period Gold is a Silicon Valley startup for women who are looking for a holistic understanding of their menstrual cycle. We ran a Design Sprint to define the app's features and worked on UX, UI and strategy."
+    },
+    {
+      "url": "/images/playa.jpg",
+      "altText": "",
+      "link": "https://google.com",
+      "title": "Hobnob",
+      "cardContent": "An app that connects travelers based on compatibility questions, interests and itineraries."
+    },
+    {
+      "url": "/images/playa.jpg",
+      "altText": "",
+      "link": "https://google.com",
+      "title": "Jampp",
+      "cardContent": "A video creation tool for the growth platform of choice for on-demand apps worldwide."
+    },
+    {
+      "url": "/images/playa.jpg",
+      "altText": "",
+      "link": "https://google.com",
+      "title": "Plevo",
+      "cardContent": "A web for a series of innovative and techie travel pieces."
+    },
+    {
+      "url": "/images/playa.jpg",
+      "altText": "",
+      "link": "https://google.com",
+      "title": "Endurance",
+      "cardContent": "We worked on the branding and built the web for the world's first carbon-neutral online conference on triathlon."
+    },
+    {
+      "url": "/images/playa.jpg",
+      "altText": "",
+      "link": "https://google.com",
+      "title": "Sporty",
+      "cardContent": "We worked on the branding and built the web for the world's first carbon-neutral online conference on sports."
+    }
+  ],
+  "title": {
+    "content": "Effectiveness & Validation"
+  }
 }
