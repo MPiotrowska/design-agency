@@ -1,17 +1,16 @@
 import React from 'react';
 import { Container } from '../components/Container';
 import { ContactUs } from '../components/ContactUs';
-import { FlexBox } from '../components/FlexBox';
-import { Section } from '../components/Section';
+import { MiniList } from '../components/MiniList';
+import { Methodologies } from '../components/Methodologies';
+import { OurCompany } from '../components/OurCompany';
+import { Clients } from '../components/Clients';
 import { AboutSection } from '../components/AboutSection';
 
 import styles from '../styles/Home.module.css';
 import aboutStyles from '../components/AboutSection/aboutSection.module.css';
-import { MiniList } from '../components/MiniList';
-import miniLIstStyles from '../components/MiniList/miniList.module.css';
-import { Methodologies } from '../components/Methodologies';
-import { OurCompany } from '../components/OurCompany';
-import { Clients } from '../components/Clients';
+
+import data from '../mocks/data.json';
 
 const About = () => {
   return (
@@ -27,69 +26,11 @@ const About = () => {
             paddingBottom: '130px',
           }}
         >
-          <h3 className={aboutStyles.description}>How we do it</h3>
-          <h1 className={aboutStyles.purpose}>
-            {' '}
-            Strategy, clarity and purpose
-          </h1>
-          <FlexBox justifyContent="space-between">
-            <Section>
-              <MiniList
-                white
-                className={miniLIstStyles.title}
-                caseLink="https://google.com"
-                caseTitle="Digital products →"
-              >
-                {' '}
-                <ul white>
-                  <li>● Product Strategy</li>
-                  <li>● Research</li>
-                  <li>● UX/UI Design</li>
-                  <li>● Brand Identity Systems</li>
-                  <li>● No Code</li>
-                  <li>● Websites and Apps</li>
-                  <li>● Ecommerce</li>
-                </ul>
-              </MiniList>
-            </Section>
-            <Section>
-              <MiniList
-                white
-                caseLink="https://google.com"
-                className={miniLIstStyles.title}
-                caseTitle="Branding →"
-              >
-                <ul white>
-                  <li>● Brand Strategy</li>
-                  <li>● Research</li>
-                  <li>● Naming</li>
-                  <li>● Brand Identity Systems</li>
-                  <li>● Copywriting</li>
-                  <li>● Information Architecture</li>
-                  <li>● Web Design</li>
-                </ul>
-              </MiniList>
-            </Section>
-            <Section>
-              <MiniList
-                white
-                caseLink="https://google.com"
-                className={miniLIstStyles.title}
-                caseTitle="Communication →"
-              >
-                {' '}
-                <ul white>
-                  <li>● Marketing Strategy</li>
-                  <li>● Content Strategy and Creation</li>
-                  <li>● Copywriting</li>
-                  <li>● SEO</li>
-                  <li>● Social Media</li>
-                  <li>● Brand Activations and Experience</li>
-                  <li>● Style guides, tone and voice</li>
-                </ul>
-              </MiniList>
-            </Section>
-          </FlexBox>
+          <h3 className={aboutStyles.description}>
+            {data.strategyTitle.subtitle}
+          </h3>
+          <h1 className={aboutStyles.purpose}>{data.strategyTitle.content}</h1>
+          <MiniList />
         </Container>
       </Container>
       <Methodologies />
