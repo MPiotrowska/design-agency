@@ -47,10 +47,7 @@
     },
     {
       "url": "/images/playa.jpg",
-      "altText": "",
-      "link": "https://google.com",
-      "title": "Silence",
-      "cardContent": "Silence is a personal electric scooter free of charging points. We ran a Design Sprint and worked on UX, UI and Strategy with their team."
+      "altText": ""
     },
     {
       "url": "/images/playa.jpg",
@@ -71,13 +68,6 @@
       "altText": "",
       "link": "https://google.com",
       "title": "Hobnob",
-      "cardContent": "An app that connects travelers based on compatibility questions, interests and itineraries."
-    },
-    {
-      "url": "/images/playa.jpg",
-      "altText": "",
-      "link": "https://google.com",
-      "title": "Jampp",
       "cardContent": "A video creation tool for the growth platform of choice for on-demand apps worldwide."
     },
     {
@@ -104,5 +94,210 @@
   ],
   "title": {
     "content": "Effectiveness & Validation"
-  }
+  },
+
+  "miniCards": [
+    {
+      "url": "/images/playa.jpg",
+      "altText": "",
+      "link": "https://google.com",
+      "title": "Women in Tech: Marga Martinez Picornell"
+    },
+    {
+      "url": "/images/playa.jpg",
+      "altText": "",
+      "link": "https://google.com",
+      "title": "Lean UX and Design Sprint changed product design for ever"
+    },
+    {
+      "url": "/images/playa.jpg",
+      "altText": "",
+      "link": "https://google.com",
+      "title": "90 days to emerge stronger"
+    },
+    {
+      "url": "/images/playa.jpg",
+      "altText": "",
+      "link": "https://google.com",
+      "title": "Speculative Design: An alternative reading to reality"
+    }
+  ],
+
+  "insight": {
+    "content": "Insights by Logo "
+  },
+  "cards": [
+    {
+      "url": "/images/playa.jpg",
+      "altText": "",
+      "link": "https://google.com",
+      "title": "Naked",
+      "cardContent": "We worked on Product Strategy and Product Development with a Silicon Valley startup that raised a $14M Series A producing and selling the world's first 3D home body scanner."
+    },
+    {
+      "url": "/images/playa.jpg",
+      "altText": "",
+      "link": "https://google.com",
+      "title": "Silence",
+      "cardContent": "Silence is a personal electric scooter free of charging points. We ran a Design Sprint and worked on UX, UI and Strategy with their team."
+    },
+    {
+      "url": "/images/playa.jpg",
+      "altText": "",
+      "link": "https://google.com",
+      "title": "Samsung",
+      "cardContent": "We worked with Samsung designing and developing the web for their annual conference for developers and digital product creators. UX, UI, development and a lot of user testing."
+    },
+    {
+      "url": "/images/playa.jpg",
+      "altText": "",
+      "link": "https://google.com",
+      "title": "Period Gold",
+      "cardContent": "Period Gold is a Silicon Valley startup for women who are looking for a holistic understanding of their menstrual cycle. We ran a Design Sprint to define the app's features and worked on UX, UI and strategy."
+    }
+  ],
+
+  "firmDescription": {
+    "content": "Logo is a design and strategy studio based in Barcelona. We build transformative digital products & brands. We work with processes clients treasure."
+  },
+
+  "list": [
+    {
+      "title": "Turn ideas into action",
+      "content": "We help you design and develop digital products that solve real problems for real people. Apps, webs and everything in between. We work fast."
+    },
+    {
+      "title": "Power up your brand",
+      "content": "We help you improve your narrative and strengthen your brand message and aesthetics throughout all your channels in just 3 weeks."
+    },
+    {
+      "title": "Cut through the noise",
+      "content": "We help you think over your whole communication strategy and build a 3-month content plan."
+    }
+  ],
+  "designTitle": {
+    "content": "Design, digital products, branding, communication and strategy."
+  },
+
+  "description": {
+    "content": "We help you move quickly without wasting resources."
+  },
+
+  "heroDescription": {
+    "content": "Slow sites are the bane of the internet. We are JAMstack experts that use Gatsby to build blazing-fast sites that are a pleasure to use and a joy to behold. Maximize your business potential with a static website today. "
+  },
+
+  "heroTitle": {
+    "content": "Faster sites get more traffic and make more money. "
+  },
+
+  "digitalTitle": {
+    "link": "https://google.com",
+    "content": "Digital products → "
+  },
+
+  "miniList": [
+    {
+      "item": "● Product Strategy"
+    },
+    {
+      "item": "● Research"
+    },
+    {
+      "item": "● UX/UI Design"
+    },
+    {
+      "item": "● Brand Identity Systems"
+    },
+    {
+      "item": "● No Code"
+    },
+    {
+      "item": "● Websites and Apps"
+    },
+    {
+      "item": "● Ecommerce"
+    }
+  ],
+
+  "brandingTitle": {
+    "link": "https://google.com",
+    "content": "Branding → "
+  },
+
+  "miniListBranding": [
+    {
+      "item": "● Brand Strategy"
+    },
+    {
+      "item": "● Research"
+    },
+    {
+      "item": "● Naming"
+    },
+    {
+      "item": "● Brand Identity Systems"
+    },
+    {
+      "item": "● Copywriting"
+    },
+    {
+      "item": "● Information Architecture"
+    },
+    {
+      "item": "● Web Design"
+    }
+  ],
+
+  "communicationTitle": {
+    "link": "https://google.com",
+    "content": "Communication → "
+  },
+
+  "miniListCommunication": [
+    {
+      "item": "● Marketing Strategy"
+    },
+    {
+      "item": "● Content Strategy and Creation"
+    },
+    {
+      "item": "● Copywriting"
+    },
+    {
+      "item": "● SEO"
+    },
+    {
+      "item": "● Social Media"
+    },
+    {
+      "item": "● Brand Activations and Experience"
+    },
+    {
+      "item": "● Style guides, tone and voice"
+    }
+  ],
+  "strategyTitle": {
+    "subtitle": "How we do it",
+    "content": "Strategy, clarity and purpose"
+  },
+
+  "city": {
+    "name": "Barcelona"
+  },
+
+  "adress": [
+    { "line": "Passeig de Gràcia 6" },
+    { "line": "Barcelona" },
+    { "line": "Spain" }
+  ],
+  "cityBuenos": {
+    "name": "Buenos Aires"
+  },
+
+  "adressBuenos": [
+    { "line": "Av. del Libertador 3" },
+    { "line": "Buenos Aires" },
+    { "line": "Argentina" }
+  ]
 }

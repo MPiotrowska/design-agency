@@ -1,10 +1,7 @@
 import React from 'react';
 import styles from './description.module.css';
+import data from '../../mocks/data.json';
 
-export const Description = ({ children, white }) => {
-  return (
-    <p className={` description  ${white ? styles.white : styles.black}`}>
-      {children}
-    </p>
-  );
+export const Description = () => {
+  return <p className={styles.white}>{data.description.content}</p>;
 };
