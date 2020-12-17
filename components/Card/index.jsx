@@ -1,23 +1,25 @@
 import React from 'react';
+import { Container } from '../Container';
+import { FlexBox } from '../FlexBox';
 import styles from './card.module.css';
+import data from '../../mocks/data.json';
 
-const testImage =
-  'https://via.placeholder.com/450/bebfde/000000%20?Text=Digital.com%20C/O%20https://placeholder.com/';
-
-export const Card = ({
-  children,
-  src = testImage,
-  alt = '',
-  caseLink,
-  caseTitle,
-}) => {
+export const Card = () => {
   return (
-    <div className={styles.cardContainer}>
-      <img src={src} alt={alt} />
-      <a target="blank" className={styles.caseLink} href={caseLink}>
-        <h3 className={styles.caseTitle}>{caseTitle}</h3>
-      </a>
-      <p className={styles.cardContent}>{children}</p>
-    </div>
+    <Container fullWidth>
+      <Container>
+        <FlexBox justifyContent="space-around">
+          {data.cards.map((card) => (
+            <div className={styles.cardContainer}>
+              <img className={styles.image} src={card.url} alt={card.altText} />
+              <a target="blank" className={styles.caseLink} href={card.link}>
+                <h3 className={styles.caseTitle}>{card.title}</h3>
+              </a>
+              <p className={styles.cardContent}>{card.cardContent}</p>
+            </div>
+          ))}
+        </FlexBox>
+      </Container>
+    </Container>
   );
 };
