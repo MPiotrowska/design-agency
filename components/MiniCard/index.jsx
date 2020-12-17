@@ -1,21 +1,33 @@
 import React from 'react';
 import styles from './miniCard.module.css';
+import data from '../../mocks/data.json';
+import { FlexBox } from '../FlexBox';
+import { Container } from '../Container';
 
-const testImage =
-  'https://via.placeholder.com/250x370/bebfde/000000%20?Text=Digital.com%20C/O%20https://placeholder.com/';
-
-export const MiniCard = ({
-  src = testImage,
-  alt = '',
-  caseLink,
-  caseTitle,
-}) => {
+export const MiniCard = () => {
   return (
-    <div className={styles.cardContainer}>
-      <img className={styles.image} src={src} alt={alt} />
-      <a target="blank" className={styles.caseLink} href={caseLink}>
-        <h3 className={styles.caseTitle}>{caseTitle}</h3>
-      </a>
-    </div>
+    <Container fullWidth>
+      <Container>
+        <h2 className={styles.title}>{data.insight.content}</h2>
+        <FlexBox justifyContent="space-around">
+          {data.miniCards.map((miniCard) => (
+            <div className={styles.cardContainer}>
+              <img
+                className={styles.image}
+                src={miniCard.url}
+                alt={miniCard.altText}
+              />
+              <a
+                target="blank"
+                className={styles.caseLink}
+                href={miniCard.link}
+              >
+                <h3 className={styles.caseTitle}>{miniCard.title}</h3>
+              </a>
+            </div>
+          ))}
+        </FlexBox>
+      </Container>
+    </Container>
   );
 };
