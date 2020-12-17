@@ -2,7 +2,6 @@ import React from 'react';
 import { MidCard } from '../components/MidCard';
 import { ContactUs } from '../components/ContactUs';
 import { Container } from '../components/Container';
-import { FlexBox } from '../components/FlexBox';
 
 import styles from '../styles/Home.module.css';
 
