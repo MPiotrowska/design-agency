@@ -104,5 +104,35 @@
   ],
   "title": {
     "content": "Effectiveness & Validation"
+  },
+
+  "miniCards": [
+    {
+      "url": "/images/playa.jpg",
+      "altText": "",
+      "link": "https://google.com",
+      "title": "Women in Tech: Marga Martinez Picornell"
+    },
+    {
+      "url": "/images/playa.jpg",
+      "altText": "",
+      "link": "https://google.com",
+      "title": "Lean UX and Design Sprint changed product design for ever"
+    },
+    {
+      "url": "/images/playa.jpg",
+      "altText": "",
+      "link": "https://google.com",
+      "title": "90 days to emerge stronger"
+    },
+    {
+      "url": "/images/playa.jpg",
+      "altText": "",
+      "link": "https://google.com",
+      "title": "Speculative Design: An alternative reading to reality"
+    }
+  ],
+  "insight": {
+    "content": "Insights by Bardo "
   }
 }
