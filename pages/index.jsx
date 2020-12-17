@@ -125,31 +125,7 @@ export default function Home() {
             </FlexBox>
           </Container>
         </Container>
-        <Container fullWidth>
-          <Container>
-            <FlexBox justifyContent="center">
-              <MiniCard
-                caseLink="https://google.com"
-                caseTitle="Women in Tech: Marga Martinez Picornell"
-              />
-
-              <MiniCard
-                caseLink="https://google.com"
-                caseTitle="Lean UX and Design Sprint changed product design for ever"
-              />
-
-              <MiniCard
-                caseLink="https://google.com"
-                caseTitle="90 days to emerge stronger"
-              />
-
-              <MiniCard
-                caseLink="https://google.com"
-                caseTitle="Speculative Design: An alternative reading to reality"
-              />
-            </FlexBox>
-          </Container>
-        </Container>
+        <MiniCard />
         <Container fullWidth style={{ backgroundColor: '#102990' }}>
           <ContactUs caseLink="/contact" caseTitle="Let’s talk. Contact Us." />
         </Container>
