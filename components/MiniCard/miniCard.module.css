@@ -12,3 +12,15 @@
 .caseTitle:hover {
   text-decoration: underline;
 } 
+
+.image {
+  height: 370px;
+  width: 290px;
+}
+
+.title {margin-top: 16px;
+    margin-bottom: 54px;
+    font-size: 44px;
+    line-height: 54px;
+    font-weight: 500;
+}
