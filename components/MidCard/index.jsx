@@ -11,7 +11,7 @@ export const MidCard = () => {
         <h1 className={styles.title}>{data.title.content}</h1>
         <FlexBox justifyContent="space-between">
           {data.midCards.map((midcard) => (
-            <div className={styles.cardContainer}>
+            <div key={midcard.title} className={styles.cardContainer}>
               <img
                 className={styles.imageContainer}
                 src={midcard.url}
@@ -20,7 +20,9 @@ export const MidCard = () => {
               <a target="blank" className={styles.caseLink} href={midcard.link}>
                 <h3 className={styles.caseTitle}>{midcard.title}</h3>
               </a>
-              <p className={styles.cardContent}>{midcard.cardContent}</p>
+              {midcard.cardContent ? (
+                <p className={styles.cardContent}>{midcard.cardContent}</p>
+              ) : null}
             </div>
           ))}
         </FlexBox>
