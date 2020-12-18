@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import { InView } from 'react-intersection-observer';
 
 import { Card } from '../components/Card';
 import { Container } from '../components/Container';
@@ -11,16 +12,24 @@ import { ContactUs } from '../components/ContactUs';
 import { FirmDescription } from '../components/FirmDescription';
 import { HeroDescription } from '../components/HeroDescription';
 import { HeroTitle } from '../components/HeroTitle';
+import { useScrollDispatch } from '../lib/scrollContext';
 
 // styles
 import styles from '../styles/Home.module.css';
 import containerStyles from '../components/Container/container.module.css';
 
 export default function Home() {
+  const dispatch = useScrollDispatch();
+  const handleChange = (inView) => {
+    const action = { type: 'scroll', payload: inView };
+    dispatch(action);
+  };
   return (
     <>
       <Container fullWidth style={{ position: 'relative' }}>
-        <img src="/images/orange-large.jpg" alt="orange" />
+        <InView as="div" onChange={handleChange}>
+          <img src="/images/orange-large.jpg" alt="orange" />
+        </InView>
         <Container className={containerStyles.heroText}>
           <Container>
             <HeroTitle />
