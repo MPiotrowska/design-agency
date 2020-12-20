@@ -7,7 +7,7 @@ import data from '../../mocks/data.json';
 export const MidCard = () => {
   return (
     <Container fullWidth>
-      <Container>
+      <Container className={styles.container}>
         <h1 className={styles.title}>{data.title.content}</h1>
         <FlexBox justifyContent="space-between">
           {data.midCards.map((midcard) => (
