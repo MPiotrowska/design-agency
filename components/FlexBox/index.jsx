@@ -6,6 +6,7 @@ export const FlexBox = ({
   justifyContent = 'flex-start',
   alignItems = 'flex-start',
   paddingTop = '',
+  className = '',
 }) => {
   const stylesObj = {
     display: 'flex',
@@ -16,5 +17,9 @@ export const FlexBox = ({
     paddingTop: paddingTop,
   };
 
-  return <div style={stylesObj}>{children}</div>;
+  return (
+    <div className={className} style={stylesObj}>
+      {children}
+    </div>
+  );
 };
