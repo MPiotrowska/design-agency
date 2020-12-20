@@ -66,11 +66,16 @@
   display:none;
 }
 
+.menuItem:hover {
+  text-decoration: underline;
+
+}
+
 .logo {
   flex: 1 1 50%;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 45px;
   max-width: 100px;
 }
 
