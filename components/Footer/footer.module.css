@@ -18,12 +18,8 @@
 }
 
 .caseTitle {
-  position: static;
   display: inline-block;
   margin-right: 20px;
-  float: none;
-  clear: left;
-   
   font-size: 18px;
   line-height: 24px;
   font-weight: 500;
@@ -32,5 +28,17 @@
 
 .caseTitle:hover {
   text-decoration: underline;
+} 
+
+@media only screen and (max-width: 600px) {
+  .footer{
+    max-width: 75%;
+    margin: auto;
+   }
+   .caseTitle {
+     font-size: 12px;
+     padding-right: 0;
+     min-width: 80px;
+   }
 } 
 
