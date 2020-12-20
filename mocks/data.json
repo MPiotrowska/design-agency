@@ -3,7 +3,6 @@
   "images": [
     { "url": "/images/samsung.svg", "altText": "Samsung Logo" },
     { "url": "/images/danone.svg", "altText": "" },
-
     { "url": "/images/conde.svg", "altText": "" },
     { "url": "/images/naked.svg", "altText": "" }
   ],
@@ -47,7 +46,10 @@
     },
     {
       "url": "/images/playa.jpg",
-      "altText": ""
+      "altText": "",
+      "link": "https://google.com",
+      "title": "Silence",
+      "cardContent": "Silence is a personal electric scooter free of charging points. We ran a Design Sprint and worked on UX, UI and Strategy with their team."
     },
     {
       "url": "/images/playa.jpg",
@@ -74,8 +76,8 @@
       "url": "/images/playa.jpg",
       "altText": "",
       "link": "https://google.com",
-      "title": "Plevo",
-      "cardContent": "A web for a series of innovative and techie travel pieces."
+      "title": "Jampp",
+      "cardContent": "A video creation tool for the growth platform of choice for on-demand apps worldwide."
     },
     {
       "url": "/images/playa.jpg",
@@ -83,6 +85,13 @@
       "link": "https://google.com",
       "title": "Endurance",
       "cardContent": "We worked on the branding and built the web for the world's first carbon-neutral online conference on triathlon."
+    },
+    {
+      "url": "/images/playa.jpg",
+      "altText": "",
+      "link": "https://google.com",
+      "title": "Plevo",
+      "cardContent": "A web for a series of innovative and techie travel pieces."
     },
     {
       "url": "/images/playa.jpg",
@@ -299,5 +308,16 @@
     { "line": "Av. del Libertador 3" },
     { "line": "Buenos Aires" },
     { "line": "Argentina" }
+  ],
+
+  "shortList": [
+    {
+      "url": "/images/playa.jpg",
+      "item": "● Validate any idea in just 1-week with Design Sprint →"
+    },
+    {
+      "url": "/images/playa.jpg",
+      "item": "● Design great products with agile teams with Lean UX →"
+    }
   ]
 }

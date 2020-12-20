@@ -12,7 +12,7 @@ const Contact = () => {
     <main className={styles.main}>
       <Container fullWidth style={{ paddingTop: '100px' }}>
         <Container>
-          <FlexBox justifyContent="space-around" paddingTop="120px">
+          <FlexBox justifyContent="space-between" paddingTop="120px">
             <Form />
             <FormImage />
           </FlexBox>

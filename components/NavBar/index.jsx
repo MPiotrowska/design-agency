@@ -1,8 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import styles from './navBar.module.css';
 import { useScrollState } from '../../lib/scrollContext';
-import { useRouter } from 'next/router';
 
 export const NavBar = () => {
   const [open, setOpen] = React.useState(false);
@@ -38,17 +38,17 @@ export const NavBar = () => {
         <ul className={styles.menuContainer}>
           <li>
             <Link href="/about">
-              <a>About Us</a>
+              <a className={styles.menuItem}>About Us</a>
             </Link>
           </li>
           <li>
             <Link href="/studies">
-              <a>Case Studies</a>
+              <a className={styles.menuItem}>Case Studies</a>
             </Link>
           </li>
           <li>
             <Link href="/contact">
-              <a>Contact</a>
+              <a className={styles.menuItem}>Contact</a>
             </Link>
           </li>
         </ul>
