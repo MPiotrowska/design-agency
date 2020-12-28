@@ -8,7 +8,7 @@ export const AboutSection = ({ alt = '' }) => {
     <Container>
       <div className={styles.infoContainer}>
         <h1 className={styles.text}>
-          Bardo is a product design and branding studio based in Barcelona.
+          V-Studio is a product design and branding studio based in Barcelona.
         </h1>
       </div>
       <div>

@@ -32,7 +32,7 @@ export const NavBar = () => {
       style={router.pathname === '/' ? headerStyles : noHomeStyles}
     >
       <Link href="/">
-        <a className={styles.logo}>Logo</a>
+        <a className={styles.logo}>V-Studio</a>
       </Link>
       <nav className={styles.nav}>
         <ul className={styles.menuContainer}>
