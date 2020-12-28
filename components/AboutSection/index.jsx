@@ -1,11 +1,9 @@
 import React from 'react';
 import { Container } from '../Container';
 import styles from './aboutSection.module.css';
+import data from '../../mocks/data.json';
 
-const testImage =
-  'https://via.placeholder.com/800x370/bebfde/000000%20?Text=Digital.com%20C/O%20https://placeholder.com/';
-
-export const AboutSection = ({ src = testImage, alt = '' }) => {
+export const AboutSection = ({ alt = '' }) => {
   return (
     <Container>
       <div className={styles.infoContainer}>
@@ -14,7 +12,7 @@ export const AboutSection = ({ src = testImage, alt = '' }) => {
         </h1>
       </div>
       <div>
-        <img className={styles.image} src={src} alt={alt} />
+        <img className={styles.image} src={data.about.url} alt={alt} />
       </div>
     </Container>
   );

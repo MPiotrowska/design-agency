@@ -18,3 +18,8 @@
     line-height: 32px;
     font-weight: 500;
 }
+
+.image {
+  height: 400px;
+  width: 600px;
+}
