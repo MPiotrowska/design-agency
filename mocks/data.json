@@ -23,11 +23,11 @@
 
   "testimonies": [
     {
-      "text": "Logo created a strong app that functions well and is easy to manage. The app has gotten great feedback and is impressive for a quickly developed MVP.",
+      "text": "V-Studio created a strong app that functions well and is easy to manage. The app has gotten great feedback and is impressive for a quickly developed MVP.",
       "name": "Valentina Vincent, CEO & Founder"
     },
     {
-      "text": "Logo  kicked off out project running a Design Sprint. That helped us validate our ideas, think of solutions, build a prototype and test it with real users very fast. After that they began working on the design of two high quality apps that are attractive and very easy to use and understand.",
+      "text": "V-Studio  kicked off out project running a Design Sprint. That helped us validate our ideas, think of solutions, build a prototype and test it with real users very fast. After that they began working on the design of two high quality apps that are attractive and very easy to use and understand.",
       "name": "Daniel Grátacos, CTO at Silence"
     },
     {
@@ -133,7 +133,7 @@
   ],
 
   "insight": {
-    "content": "Insights by Logo "
+    "content": "Insights by Studio "
   },
   "cards": [
     {
@@ -167,7 +167,7 @@
   ],
 
   "firmDescription": {
-    "content": "Logo is a design and strategy studio based in Barcelona. We build transformative digital products & brands. We work with processes clients treasure."
+    "content": "Studio is a design and strategy studio based in Barcelona. We build transformative digital products & brands. We work with processes clients treasure."
   },
 
   "list": [
