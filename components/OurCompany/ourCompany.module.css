@@ -16,4 +16,8 @@ font-weight: 500;
 text-transform: uppercase;
 }
 
+.image {
+  height: 400px;
+  width: 600px;
+}
 

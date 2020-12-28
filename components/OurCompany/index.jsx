@@ -3,11 +3,9 @@ import { Container } from '../Container';
 import { FlexBox } from '../FlexBox';
 import { Section } from '../Section';
 import styles from './ourCompany.module.css';
+import data from '../../mocks/data.json';
 
-const testImage =
-  'https://via.placeholder.com/600x450/bebfde/000000%20?Text=Digital.com%20C/O%20https://placeholder.com/';
-
-export const OurCompany = ({ src = testImage, alt = '' }) => {
+export const OurCompany = ({ alt = '' }) => {
   return (
     <Container fullWidth>
       <Container>
@@ -24,7 +22,7 @@ export const OurCompany = ({ src = testImage, alt = '' }) => {
               geographic region, we want to get the best talent out there.
             </p>
           </Section>
-          <img src={src} alt={alt} />
+          <img className={styles.image} src={data.ourCompany.url} alt={alt} />
         </FlexBox>
       </Container>
     </Container>
