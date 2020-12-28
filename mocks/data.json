@@ -38,63 +38,63 @@
 
   "midCards": [
     {
-      "url": "/images/playa.jpg",
+      "url": "/images/naked.jpg",
       "altText": "",
       "link": "https://google.com",
       "title": "Naked",
       "cardContent": "We worked on Product Strategy and Product Development with a Silicon Valley startup that raised a $14M Series A producing and selling the world's first 3D home body scanner."
     },
     {
-      "url": "/images/playa.jpg",
+      "url": "/images/silence.jpg",
       "altText": "",
       "link": "https://google.com",
       "title": "Silence",
       "cardContent": "Silence is a personal electric scooter free of charging points. We ran a Design Sprint and worked on UX, UI and Strategy with their team."
     },
     {
-      "url": "/images/playa.jpg",
+      "url": "/images/samsung.jpg",
       "altText": "",
       "link": "https://google.com",
       "title": "Samsung",
       "cardContent": "We worked with Samsung designing and developing the web for their annual conference for developers and digital product creators. UX, UI, development and a lot of user testing."
     },
     {
-      "url": "/images/playa.jpg",
+      "url": "/images/woman2.jpg",
       "altText": "",
       "link": "https://google.com",
       "title": "Period Gold",
       "cardContent": "Period Gold is a Silicon Valley startup for women who are looking for a holistic understanding of their menstrual cycle. We ran a Design Sprint to define the app's features and worked on UX, UI and strategy."
     },
     {
-      "url": "/images/playa.jpg",
+      "url": "/images/travel.jpg",
       "altText": "",
       "link": "https://google.com",
       "title": "Hobnob",
-      "cardContent": "A video creation tool for the growth platform of choice for on-demand apps worldwide."
+      "cardContent": "An app that connects travelers based on compatibility questions, interests and itineraries."
     },
     {
-      "url": "/images/playa.jpg",
+      "url": "/images/jampp.jpg",
       "altText": "",
       "link": "https://google.com",
       "title": "Jampp",
       "cardContent": "A video creation tool for the growth platform of choice for on-demand apps worldwide."
     },
     {
-      "url": "/images/playa.jpg",
+      "url": "/images/endurance.jpg",
       "altText": "",
       "link": "https://google.com",
       "title": "Endurance",
       "cardContent": "We worked on the branding and built the web for the world's first carbon-neutral online conference on triathlon."
     },
     {
-      "url": "/images/playa.jpg",
+      "url": "/images/techietravel.jpg",
       "altText": "",
       "link": "https://google.com",
       "title": "Plevo",
       "cardContent": "A web for a series of innovative and techie travel pieces."
     },
     {
-      "url": "/images/playa.jpg",
+      "url": "/images/sport.jpg",
       "altText": "",
       "link": "https://google.com",
       "title": "Sporty",
@@ -107,25 +107,25 @@
 
   "miniCards": [
     {
-      "url": "/images/playa.jpg",
+      "url": "/images/techwoman.jpg",
       "altText": "",
       "link": "https://google.com",
       "title": "Women in Tech: Marga Martinez Picornell"
     },
     {
-      "url": "/images/playa.jpg",
+      "url": "/images/designs.jpg",
       "altText": "",
       "link": "https://google.com",
       "title": "Lean UX and Design Sprint changed product design for ever"
     },
     {
-      "url": "/images/playa.jpg",
+      "url": "/images/strong.jpg",
       "altText": "",
       "link": "https://google.com",
       "title": "90 days to emerge stronger"
     },
     {
-      "url": "/images/playa.jpg",
+      "url": "/images/design.jpg",
       "altText": "",
       "link": "https://google.com",
       "title": "Speculative Design: An alternative reading to reality"
@@ -319,5 +319,19 @@
       "url": "/images/playa.jpg",
       "item": "● Design great products with agile teams with Lean UX →"
     }
-  ]
+  ],
+
+  "about": {
+    "url": "/images/product.jpg"
+  },
+
+  "ourCompany": {
+    "url": "/images/remotework.jpg"
+  },
+  "methodology": {
+    "url": "/images/teamwork.jpg"
+  },
+  "contact": {
+    "url": "/images/telephone.jpg"
+  }
 }
