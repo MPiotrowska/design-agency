@@ -1,5 +1,11 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Project Management
+
+I used Github Projects to organise the workload.
+
+You can see the progress of [this project here](https://github.com/MPiotrowska/design-agency/projects/2)
+
 ## Getting Started
 
 First, run the development server:
