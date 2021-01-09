@@ -24,6 +24,7 @@ export const Methodologies = ({ alt = '' }) => {
                   href={listItem.url}
                   className={styles.caseLink}
                   target="blank"
+                  key={listItem.url}
                 >
                   <li className={styles.listItem}>{listItem.item}</li>
                 </a>

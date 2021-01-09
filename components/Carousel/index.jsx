@@ -20,7 +20,7 @@ export const Carousel = () => {
   return (
     <Slider className={styles.slider} {...settings}>
       {data.testimonies.map((testimony) => (
-        <Slide testimony={testimony} />
+        <Slide key={testimony.name} testimony={testimony} />
       ))}
     </Slider>
   );

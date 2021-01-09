@@ -12,7 +12,9 @@ export const Adress = () => {
         <div className={styles.adressContainer}>
           <h3 className={styles.cityName}>{data.city.name}</h3>
           {data.adress.map((item) => (
-            <p className={styles.adressLine}>{item.line}</p>
+            <p key={item.line} className={styles.adressLine}>
+              {item.line}
+            </p>
           ))}
         </div>
       </Section>
@@ -21,7 +23,9 @@ export const Adress = () => {
         <div className={styles.adressContainer}>
           <h3 className={styles.cityName}>{data.cityBuenos.name}</h3>
           {data.adressBuenos.map((item) => (
-            <p className={styles.adressLine}>{item.line}</p>
+            <p key={item.line} className={styles.adressLine}>
+              {item.line}
+            </p>
           ))}
         </div>
       </Section>

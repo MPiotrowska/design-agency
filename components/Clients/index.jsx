@@ -18,8 +18,9 @@ export const Clients = () => {
             className={styles.logosContainer}
             justifyContent="space-between"
           >
-            {data.images.map((image) => (
-              <Section>
+            {data.images.map((image, i) => (
+              // eslint-disable-next-line react/no-array-index-key
+              <Section key={`${image.url}-${i}`}>
                 <img src={image.url} alt={image.altText} />
               </Section>
             ))}
@@ -29,8 +30,9 @@ export const Clients = () => {
           justifyContent="space-between"
           className={styles.logosContainer}
         >
-          {data.logos.map((logo) => (
-            <Section>
+          {data.logos.map((logo, i) => (
+            // eslint-disable-next-line react/no-array-index-key
+            <Section key={`${logo.url}-${i}`}>
               <img width={200} height={80} src={logo.url} alt={logo.altText} />
             </Section>
           ))}
