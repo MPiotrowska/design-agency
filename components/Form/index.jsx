@@ -8,7 +8,13 @@ export const Form = () => {
         <h1 className={styles.title}>Let&apos;s work together</h1>
         <p className={styles.info}>Or email us at</p>
       </div>
-      <form name="contact" action="/success" method="POST" data-netlify="true">
+      <form
+        name="contact"
+        action="/success"
+        method="POST"
+        data-netlify="true"
+        netlify-honeypot="bot-field"
+      >
         <input type="hidden" name="form-name" value="contact" />
         <p>
           <label className={styles.label} htmlFor="name">
