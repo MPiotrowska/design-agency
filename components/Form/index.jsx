@@ -72,7 +72,7 @@ export const Form = () => {
             required
           >
             <option value>Select one...</option>
-            <option value="10 or less">€10.000 or less</option>
+            <option value="10k or less">€10.000 or less</option>
             <option value="10k - 25k">€10.000 - €25.000</option>
             <option value="25k - 50k">€25.000 - €50.000</option>
             <option value="+50k ">+ €50.000</option>
