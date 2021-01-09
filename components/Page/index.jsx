@@ -6,7 +6,6 @@ export const Page = ({ children }) => {
   return (
     <div>
       <Header />
-
       {children}
       <Footer />
     </div>

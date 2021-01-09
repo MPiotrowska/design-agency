@@ -1,13 +1,13 @@
+/* eslint-disable jsx-a11y/click-events-have-key-events */
 import React from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import styles from './navBar.module.css';
-import { useScrollState } from '../../lib/scrollContext';
+import { useScrollState, useScrollDispatch } from '../../lib/scrollContext';
 
 export const NavBar = () => {
-  const [open, setOpen] = React.useState(false);
-  const [active, setActive] = React.useState(false);
   const globalState = useScrollState();
+  const dispatch = useScrollDispatch();
   const router = useRouter();
 
   const headerStyles = {
@@ -22,8 +22,9 @@ export const NavBar = () => {
   };
 
   const handleClick = () => {
-    setOpen(!open);
-    setActive(!active);
+    dispatch({
+      type: 'toggleBurger',
+    });
   };
 
   const burgerStyles = globalState.heroIsInView
@@ -62,22 +63,22 @@ export const NavBar = () => {
         className={styles.burgerButton}
         type="button"
       >
-        <span className={open ? styles.burgerOpen : burgerStyles} />
+        <span className={globalState.open ? styles.burgerOpen : burgerStyles} />
       </button>
 
-      <div className={active ? styles.menuBurger : styles.menu}>
+      <div className={globalState.active ? styles.menuBurger : styles.menu}>
         <ul className={styles.menuBurgerInner}>
-          <li>
+          <li onClick={handleClick}>
             <Link href="/about">
               <a>About Us</a>
             </Link>
           </li>
-          <li>
+          <li onClick={handleClick}>
             <Link href="/studies">
               <a>Case Studies</a>
             </Link>
           </li>
-          <li>
+          <li onClick={handleClick}>
             <Link href="/contact">
               <a>Contact</a>
             </Link>
