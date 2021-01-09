@@ -102,7 +102,6 @@
   .burgerButton {
     display: flex;
     position: relative;
-    height: 101px;
     outline: none;
     cursor: pointer;
     width: 40px;
@@ -121,7 +120,7 @@
     z-index: 40;
     top: -10px;
   }
-  
+   
   .burger:after {
     position: absolute;
     content: "";
@@ -139,6 +138,36 @@
     width: 20px;
     height: 2px;
     background-color: white;
+    top: 8px;
+    left: 6px;
+    z-index:40;
+  }
+
+  .burgerBlack {
+    width: 20px;
+    height: 2px;
+    background-color: black;
+    z-index: 40;
+    top: -10px;
+  }
+   
+  .burgerBlack:after {
+    position: absolute;
+    content: "";
+    width: 20px;
+    top: 16px;
+    left: 6px;
+    height: 2px;
+    background-color: black;
+    z-index:40;
+  }
+
+  .burgerBlack:before {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 2px;
+    background-color: black;
     top: 8px;
     left: 6px;
     z-index:40;
