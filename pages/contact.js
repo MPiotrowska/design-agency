@@ -18,7 +18,7 @@ const Contact = () => {
           </FlexBox>
         </Container>
       </Container>
-      <Container fullWidth style={{ backgroundColor: '#102990' }}>
+      <Container fullWidth style={{ backgroundColor: '#0073bc' }}>
         <Container>
           <Adress />
         </Container>

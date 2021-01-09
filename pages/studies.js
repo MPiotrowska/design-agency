@@ -9,7 +9,7 @@ const caseStudies = () => {
   return (
     <main className={styles.main}>
       <MidCard />
-      <Container fullWidth style={{ backgroundColor: '#102990' }}>
+      <Container fullWidth style={{ backgroundColor: '#0073bc' }}>
         <ContactUs caseLink="/contact" caseTitle="Let’s talk. Contact Us." />
       </Container>
     </main>

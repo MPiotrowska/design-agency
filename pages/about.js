@@ -18,10 +18,10 @@ const About = () => {
       <Container fullWidth>
         <AboutSection />
       </Container>
-      <Container fullWidth style={{ backgroundColor: '#102990' }}>
+      <Container fullWidth style={{ backgroundColor: '#0073bc' }}>
         <Container
           style={{
-            backgroundColor: '#102990',
+            backgroundColor: '#0073bc',
             paddingTop: '140px',
             paddingBottom: '130px',
           }}
@@ -36,7 +36,7 @@ const About = () => {
       <Methodologies />
       <OurCompany />
       <Clients />
-      <Container fullWidth style={{ backgroundColor: '#102990' }}>
+      <Container fullWidth style={{ backgroundColor: '#0073bc' }}>
         <ContactUs caseLink="/contact" caseTitle="Let’s talk. Contact Us." />
       </Container>
     </main>
