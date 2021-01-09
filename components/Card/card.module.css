@@ -4,8 +4,7 @@
   line-height: 24px;
   font-weight: 500;
   max-width: 450px;
-
-  }
+}
 
   .caseTitle {
     margin-top: 20px;
@@ -25,11 +24,21 @@
   }
 
   .image {
-    width: 470px;
-    height: 550px;
+    width: 100%;
+    height: 100%;
     cursor: pointer;
     transition: all 0.4s ease-in-out;
     box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22);
     transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     transform-style: preserve-3d;
+  }
+
+  .cardContainer {
+    height: 550px;
+  }
+
+  @media only screen and (max-width:800px) {
+    .cardContainer {
+      height: auto;
+    } 
   }
