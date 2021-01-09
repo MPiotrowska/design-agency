@@ -1,3 +1,9 @@
+.cardContainer {
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .cardContent {
   margin-bottom: 120px;
   font-size: 18px;
@@ -8,6 +14,7 @@
 
   .caseTitle {
     margin-bottom: 16px;
+    margin-top: 30px;
     font-size: 28px;
     line-height: 38px;
     font-weight: 500;  
@@ -21,17 +28,22 @@
     color: #000;
     text-decoration: none;
   }
+
   .imageContainer {
-    margin-bottom: 40px;
     height: 490px;
     width: 390px;
+  }
+  .image {
+    margin-bottom: 40px;
+    height: 100%;
+    width: 100%;
     cursor: pointer;
     transition: all 0.4s ease-in-out;
     box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22);
     transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;
 }
 
-.imageContainer:hover {
+.image:hover {
   transform: translate3d(0px, 0px, 0px) scale3d(1.05, 1.05, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;
 }
 
@@ -57,4 +69,13 @@
    margin-top: 120px;
  }
   
+@media only screen and (max-width: 768px){
+  .cardContainer {
+    justify-content: center;
+  }
+  .imageContainer {
+    width:auto;
+    height: auto;
+  }
+}
   

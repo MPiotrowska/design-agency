@@ -9,14 +9,16 @@ export const MidCard = () => {
     <Container fullWidth>
       <Container className={styles.container}>
         <h1 className={styles.title}>{data.title.content}</h1>
-        <FlexBox justifyContent="space-between">
+        <div className={styles.cardContainer}>
           {data.midCards.map((midcard) => (
-            <div key={midcard.title} className={styles.cardContainer}>
-              <img
-                className={styles.imageContainer}
-                src={midcard.url}
-                alt={midcard.altText}
-              />
+            <div key={midcard.url}>
+              <div className={styles.imageContainer}>
+                <img
+                  className={styles.image}
+                  src={midcard.url}
+                  alt={midcard.altText}
+                />
+              </div>
               <a target="blank" className={styles.caseLink} href={midcard.link}>
                 <h3 className={styles.caseTitle}>{midcard.title}</h3>
               </a>
@@ -25,7 +27,7 @@ export const MidCard = () => {
               ) : null}
             </div>
           ))}
-        </FlexBox>
+        </div>
       </Container>
     </Container>
   );
