@@ -7,7 +7,7 @@ export const List = ({ white, className = '' }) => {
   return (
     <Section>
       {data.list.map((item) => (
-        <div className={styles.listContainer}>
+        <div key={item.title} className={styles.listContainer}>
           <h1
             className={` title ${className}  ${
               white ? styles.white : styles.black

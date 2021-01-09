@@ -11,7 +11,7 @@ export const MiniCard = () => {
         <h2 className={styles.title}>{data.insight.content}</h2>
         <FlexBox justifyContent="space-around">
           {data.miniCards.map((miniCard) => (
-            <div className={styles.cardContainer}>
+            <div key={miniCard.url} className={styles.cardContainer}>
               <img
                 className={styles.image}
                 src={miniCard.url}
