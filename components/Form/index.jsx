@@ -26,6 +26,7 @@ export const Form = () => {
             type="text"
             name="name"
             id="name"
+            required
           />
         </p>
         <p>
@@ -38,6 +39,7 @@ export const Form = () => {
             type="email"
             name="email"
             id="email"
+            required
           />
         </p>
         <p>
@@ -94,6 +96,7 @@ export const Form = () => {
             className={styles.messageInput}
             name="message"
             id="yourmessage"
+            required
           />
         </p>
         <p>
