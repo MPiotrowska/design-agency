@@ -26,6 +26,10 @@ export const NavBar = () => {
     setActive(!active);
   };
 
+  const burgerStyles = globalState.heroIsInView
+    ? styles.burger
+    : styles.burgerBlack;
+
   return (
     <header
       className={styles.navBarContainer}
@@ -58,7 +62,7 @@ export const NavBar = () => {
         className={styles.burgerButton}
         type="button"
       >
-        <span className={open ? styles.burgerOpen : styles.burger} />
+        <span className={open ? styles.burgerOpen : burgerStyles} />
       </button>
 
       <div className={active ? styles.menuBurger : styles.menu}>
