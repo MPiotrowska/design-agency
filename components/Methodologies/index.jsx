@@ -10,8 +10,10 @@ export const Methodologies = ({ alt = '' }) => {
   return (
     <Container fullWidth>
       <Container>
-        <FlexBox justifyContent="space-between">
-          <img className={styles.image} src={data.methodology.url} alt={alt} />
+        <FlexBox justifyContent="space-between" alignItems="center">
+          <div className={styles.imageContainer}>
+            <img src={data.methodology.url} alt={alt} />
+          </div>
           <Section padding="80px 0px">
             <p>OUR METHODOLOGIES</p>
             <h2 className={styles.caseTitle}>Sprints and Lean UX</h2>
