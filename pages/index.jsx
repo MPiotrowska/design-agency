@@ -31,7 +31,7 @@ export default function Home() {
           <img src="/images/orange-large.jpg" alt="orange" />
         </InView>
         <Container className={containerStyles.heroText}>
-          <Container>
+          <Container className={containerStyles.heroStandard}>
             <HeroTitle />
             <HeroDescription />
             <Link href="/contact">
@@ -43,8 +43,8 @@ export default function Home() {
       <FirmDescription />
       <main className={styles.main}>
         <Card />
-        <Container fullWidth style={{ backgroundColor: '#102990' }}>
-          <Container style={{ backgroundColor: '#102990' }}>
+        <Container fullWidth style={{ backgroundColor: '#0073bc' }}>
+          <Container style={{ backgroundColor: '#0073bc' }}>
             <FlexBox justifyContent="space-around">
               <Title />
               <List white />
@@ -52,7 +52,7 @@ export default function Home() {
           </Container>
         </Container>
         <MiniCard />
-        <Container fullWidth style={{ backgroundColor: '#102990' }}>
+        <Container fullWidth style={{ backgroundColor: '#0073bc' }}>
           <ContactUs caseLink="/contact" caseTitle="Let’s talk. Contact Us." />
         </Container>
       </main>

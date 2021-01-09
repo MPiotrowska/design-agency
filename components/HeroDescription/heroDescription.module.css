@@ -3,14 +3,6 @@
   max-width:  500px;
 }
 
-@media only screen and (max-width: 600px) {
-  .description {
-    max-width:100%;
-    
-  }
-
-}
-
 .black {
   color: black;
   margin-bottom: 40px;
@@ -23,9 +15,18 @@
 .white {
   color:white;
   margin-top: 20px;
- 
-
   font-size: 28px;
   line-height: 38px;
   font-weight: 500;
+}
+
+@media only screen and (max-width: 768px) {
+  .description {
+    max-width:100%;    
+  }
+
+  .black {
+    font-size: 21px;
+    line-height: 32px;
+  }  
 }

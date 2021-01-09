@@ -1,5 +1,5 @@
 .form {
- width: 500px;
+  width: 500px;
 }
 
 .formInput {
@@ -14,80 +14,76 @@
   background-color: #ffffff;
   border: 1px solid #cccccc;
   border-radius: 3px;
- }
+}
 
- .formInput:hover {
+.formInput:hover {
   border: 1px solid #1480de;
- }
+}
 
- .dropDownMenuInput {
+.dropDownMenuInput {
   width: 500px;
   height: 35px;
   margin-bottom: 32px;
   margin-top: 5px;
   font-size: 16px;
   line-height: 24px;
-  background-color:#ececec;
+  background-color: #ececec;
   vertical-align: middle;
   border: 1px solid #cccccc;
   border-radius: 3px;
- }
- .dropDownMenuInput:hover {
- border: 1px solid #1480de;
 }
- 
+.dropDownMenuInput:hover {
+  border: 1px solid #1480de;
+}
 
 .messageInput {
-width: 500px;
-height: 70px;
-margin-bottom: 52px;
-margin-top: 5px;
-/* vertical-align: middle; */
-background-color: #ffffff;
-border: 1px solid #cccccc;
-border-radius: 3px;
+  width: 500px;
+  height: 70px;
+  margin-bottom: 52px;
+  margin-top: 5px;
+  /* vertical-align: middle; */
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
 }
 .messageInput:hover {
   border: 1px solid #1480de;
- }
-
+}
 
 .title {
-margin-bottom: 24px;
-color: #000;
-font-size: 52px;
-line-height: 60px;
-font-weight: 700;
+  margin-bottom: 24px;
+  color: #000;
+  font-size: 52px;
+  line-height: 60px;
+  font-weight: 700;
 }
 
-.info{
-margin-bottom: 52px;
-font-size: 18px;
-line-height: 24px;
-font-weight: 600;
+.info {
+  margin-bottom: 52px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
 }
 
-.label{
-margin-bottom: 8px;
-font-size: 18px;
-line-height: 24px;
-font-weight: 600;
-
+.label {
+  margin-bottom: 8px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
 }
 .formButton {
-  background-color: #102990;
+  background-color: #0073bc;
   color: white;
   border: none;
   width: 140px;
-  height: 50px;
+  height: 45px;
   font-size: 18px;
   line-height: 26px;
   cursor: pointer;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 .caseTitle {
   padding-left: 3px;
-
 }
 .caseTitle:hover {
   text-decoration: underline;
@@ -96,13 +92,10 @@ font-weight: 600;
   margin-top: 15px;
 }
 
-
 @media only screen and (max-width: 600px) {
   .formInput,
   .dropDownMenuInput,
   .messageInput {
     max-width: 250px;
-   }
-} 
-
-
+  }
+}
