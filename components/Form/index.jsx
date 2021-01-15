@@ -6,7 +6,16 @@ export const Form = () => {
     <div className={styles.form}>
       <div>
         <h1 className={styles.title}>Let&apos;s work together</h1>
-        <p className={styles.info}>Or email us at</p>
+        <p className={styles.info}>
+          Or email us at
+          <a
+            style={{ fontWeight: 'bold' }}
+            href="mailto:monikapiotrowska27@gmail.com"
+          >
+            {' '}
+            info@vstudio.com
+          </a>
+        </p>
       </div>
       <form
         name="contact"
